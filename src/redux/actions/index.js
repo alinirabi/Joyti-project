@@ -1,0 +1,28 @@
+
+import { Constants } from '../../common';
+import {
+  LOGIN_INIT,
+  LOGIN_SUCCESS,
+  LOGIN_FAIL,
+  LOAD_START,
+  LOAD_END,
+  FORGOT_PASSWORD_SUCCESS,
+  FORGOT_PASSWORD_FAIL,
+  FORGOT_PASSWORD_INIT,
+  DASHBOARD_SUCCESS,
+  RESET_STATE,
+  RESET_PASSWORD_INIT,
+  RESET_PASSWORD_VALIDATE_FAIL,
+  RESET_PASSWORD_SUCCESS,
+  RESET_PASSWORD_FAIL,
+  CREATE_PASSWORD_INIT,
+  CREATE_PASSWORD_SUCCESS,
+  CREATE_PASSWORD_FAIL
+} from '../ReduxTypes';
+
+
+export const validateToken = (token,userName,expiration) => {
+  return dispatch => {
+    
+};
+}

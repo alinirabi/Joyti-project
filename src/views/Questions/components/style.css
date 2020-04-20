@@ -1,0 +1,19 @@
+.dd-wrapper .dd-header{
+    border:none!important;
+    border-radius:0 !important;
+    box-shadow: 1px 2px 3px #999 !important;
+    width:100% !important
+}
+.dd-wrapper{
+    width:100% !important
+    
+}
+h3,label,span,a {
+font-size: 18px;
+}
+body{
+    font-size: 18px;  
+}
+svg{
+    font-size: 22px !important
+}
